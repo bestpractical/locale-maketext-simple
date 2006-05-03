@@ -1,5 +1,5 @@
 package Locale::Maketext::Simple;
-$Locale::Maketext::Simple::VERSION = '0.15';
+$Locale::Maketext::Simple::VERSION = '0.16';
 
 use strict;
 use 5.004;
@@ -10,8 +10,8 @@ Locale::Maketext::Simple - Simple interface to Locale::Maketext::Lexicon
 
 =head1 VERSION
 
-This document describes version 0.15 of Locale::Maketext::Simple,
-released May 2, 2006.
+This document describes version 0.16 of Locale::Maketext::Simple,
+released May 3, 2006.
 
 =head1 SYNOPSIS
 
@@ -169,6 +169,7 @@ sub load_loc {
     elsif ($style eq 'gettext') {
 	$Loc{$pkg} = sub {
 	    my $str = shift;
+            $str =~ s{([\~\[\]])}{~$1}g;
             $str =~ s{
                 ([%\\]%)                        # 1 - escaped sequence
             |

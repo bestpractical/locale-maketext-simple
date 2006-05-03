@@ -1,12 +1,14 @@
+[Changes for 0.16 - 2006-05-03]
+
+* Oops, the gettext_to_maketext function was missing an escape
+  sequence, rendering message strings with [ ~ ] characters invalid.
+  Reported By: Rong-En Fan
+
 [Changes for 0.15 - 2006-05-02]
 
 * LICENSING CHANGE: This compilation and all individual files in it
   are now under the permissive "MIT" license.  See the COPYRIGHT
   section in README for the new terms.
-
-* Oops, the gettext_to_maketext function was missing an escape
-  sequence, rendering message strings with [ ~ ] characters invalid.
-  Reported By: Rong-En Fan
 
 [Changes for 0.14 - 2006-04-27]
 
