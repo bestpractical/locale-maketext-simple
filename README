@@ -11,9 +11,15 @@ Locale::Maketext::Simple uses the standard perl module install process:
     make test
     make install
 
-* COPYRIGHT (The "MIT" License)
+* COPYRIGHT
 
 Copyright 2002, 2003, 2004, 2005, 2006 by Audrey Tang <cpan@audreyt.org>.
+
+This software is released under the MIT license cited below.  Additionally,
+when this software is distributed as part of "Perl Kit, Version 5", you may
+also redistribute it and/or modify it under the same terms as Perl itself.
+
+* The "MIT" License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

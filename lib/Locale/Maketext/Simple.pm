@@ -1,5 +1,5 @@
 package Locale::Maketext::Simple;
-$Locale::Maketext::Simple::VERSION = '0.17';
+$Locale::Maketext::Simple::VERSION = '0.18';
 
 use strict;
 use 5.004;
@@ -10,8 +10,8 @@ Locale::Maketext::Simple - Simple interface to Locale::Maketext::Lexicon
 
 =head1 VERSION
 
-This document describes version 0.17 of Locale::Maketext::Simple,
-released August 13, 2006.
+This document describes version 0.18 of Locale::Maketext::Simple,
+released Septermber 8, 2006.
 
 =head1 SYNOPSIS
 
@@ -307,9 +307,15 @@ L<Locale::Maketext>, L<Locale::Maketext::Lexicon>
 
 Audrey Tang E<lt>cpan@audreyt.orgE<gt>
 
-=head1 COPYRIGHT (The "MIT" License)
+=head1 COPYRIGHT
 
 Copyright 2003, 2004, 2005, 2006 by Audrey Tang E<lt>cpan@audreyt.orgE<gt>.
+
+This software is released under the MIT license cited below.  Additionally,
+when this software is distributed as part of "Perl Kit, Version 5", you may
+also redistribute it and/or modify it under the same terms as Perl itself.
+
+=head2 The "MIT" License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
