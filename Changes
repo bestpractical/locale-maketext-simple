@@ -1,3 +1,8 @@
+
+* Ton Voon, from Opsera Limited contributed the ability to have the IANA
+  defined i-default language, for use as a fallback when arbitrary message keys,
+  rather than English phrases are being used.
+
 [Changes for 0.18 - 2006-09-08]
 
 * At the request of Steve Hay, this module is now available under the
