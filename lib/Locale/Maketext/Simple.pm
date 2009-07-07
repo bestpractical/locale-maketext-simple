@@ -2,7 +2,7 @@ package Locale::Maketext::Simple;
 $Locale::Maketext::Simple::VERSION = '0.18';
 
 use strict;
-use 5.004;
+use 5.005;
 
 =head1 NAME
 
