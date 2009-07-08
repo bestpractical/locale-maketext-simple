@@ -1,5 +1,5 @@
 package Locale::Maketext::Simple;
-$Locale::Maketext::Simple::VERSION = '0.19';
+$Locale::Maketext::Simple::VERSION = '0.20';
 
 use strict;
 use 5.005;
