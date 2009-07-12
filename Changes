@@ -1,4 +1,8 @@
 
+[Changes for 0.20_02 - 2009-07-12]
+
+* How'd that MANIFEST vanish, anyway?
+
 [Changes for 0.20_01 - 2009-07-12]
 
 * MakeMaker Makefile.PL which takes into account the fact that
