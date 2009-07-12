@@ -1,8 +1,11 @@
 
 [Changes for 0.21 - ]
 
-* MakeMaker Makefile.PL which takes into account the fact that 
+* MakeMaker Makefile.PL which takes into account the fact that
   we're now dual-lifed contributed by Jerry D. Hedden
+
+* Fix the i-default tests to skip if Local::Maketext::Lexicon is not
+  installed as they fail - Tomas Doran
 
 [Changes for 0.20 - 2009-07-08]
 

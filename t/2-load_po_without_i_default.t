@@ -6,7 +6,17 @@ use Locale::Maketext::Simple (
 	Path => "$Bin/po_without_i_default",
 	Style => "gettext",
 );
- 
+
+eval {
+    require Locale::Maketext::Lexicon;
+    die unless Locale::Maketext::Lexicon->VERSION(0.20);
+    require File::Spec;
+};
+if ($@) {
+    plan skip_all => 'No soft dependencies, i_default will not work';
+    exit 0;
+}
+
 plan tests => 5;
 
 loc_lang("en");
