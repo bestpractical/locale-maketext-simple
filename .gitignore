@@ -1,6 +1,6 @@
 MANIFEST.bak
 META.yml
 Makefile
-inc/
-blib/
+blib
 pm_to_blib
+*.swp
