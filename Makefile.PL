@@ -13,4 +13,6 @@ WriteMakefile(
                               ? ('PL_FILES' => { })    : ()),
     ((ExtUtils::MakeMaker->VERSION() gt '6.30')
                               ? ('LICENSE'  => 'perl') : ()),
+    (MM->can('signature_target') ? (SIGN => 1) : ()),
+
 );
