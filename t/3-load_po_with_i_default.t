@@ -3,8 +3,8 @@ use Test::More;
 use FindBin qw($Bin);
 
 use Locale::Maketext::Simple (
-	Path => "$Bin/po_with_i_default",
-	Style => "gettext",
+    Path => "$Bin/po_with_i_default",
+    Style => "gettext",
 );
 
 eval {
