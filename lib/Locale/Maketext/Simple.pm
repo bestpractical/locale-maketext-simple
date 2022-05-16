@@ -8,11 +8,6 @@ use 5.005;
 
 Locale::Maketext::Simple - Simple interface to Locale::Maketext::Lexicon
 
-=head1 VERSION
-
-This document describes version 0.18 of Locale::Maketext::Simple,
-released Septermber 8, 2006.
-
 =head1 SYNOPSIS
 
 Minimal setup (looks for F<auto/Foo/*.po> and F<auto/Foo/*.mo>):
